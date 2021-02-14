@@ -1,6 +1,41 @@
 version: "2.0"
 
 nlu:
+- intent: Appointment
+  examples: |
+    - make an appointment
+    - create an appointment
+    - schedule an appointment
+    - set up a meeting
+    - create a meeting
+    - set up an appointment
+    - let's meet someone
+    - add a meeting to my schedule
+    - add an appointment to my schedule
+    - add to my schedule
+
+- intent: TODO item
+  examples: |
+    - make a to-do item
+    - add to my to-do list
+    - add a new task
+    - add a new to-do item
+    - add a new item to my to-do list
+    - create a task
+    - save this to my to-do list
+    - save new task to my to-do list
+
+- intent: Timer
+  examples: |
+    - set a timer
+    - create a timer
+    - time 10 minutes
+    - set a countdown
+    - create a countdown
+    - countdown time
+    - countdown 10 minutes
+    - time me
+
 - intent: greet
   examples: |
     - hey
