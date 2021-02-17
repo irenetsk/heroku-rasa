@@ -1,7 +1,7 @@
 version: "2.0"
 
 nlu:
-- intent: Appointment
+- intent: appointment
   examples: |
     - make an appointment
     - create an appointment
@@ -14,7 +14,7 @@ nlu:
     - add an appointment to my schedule
     - add to my schedule
 
-- intent: TODO item
+- intent: todo
   examples: |
     - make a to-do item
     - add to my to-do list
@@ -25,7 +25,7 @@ nlu:
     - save this to my to-do list
     - save new task to my to-do list
 
-- intent: Timer
+- intent: timer
   examples: |
     - set a timer
     - create a timer
